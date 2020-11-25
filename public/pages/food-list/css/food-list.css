@@ -1,0 +1,30 @@
+.button-delete {
+    width: 20px;
+    height: 20px;
+    margin-left: 95%;
+  }
+  
+  .button-delete:hover {
+    border: 1px solid red;
+  }
+  
+  ul {
+    margin: 20px;
+  }
+  
+  .div-list {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .listarLink {
+    width: 100%;
+    border-radius: 10px;
+    padding: 35px;
+  }
+  
+  .list-group {
+    width: 80%;
+  }

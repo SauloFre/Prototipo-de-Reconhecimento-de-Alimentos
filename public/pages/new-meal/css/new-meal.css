@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    margin-top: 100px;
+  }
+  
+  .novaRefeicao {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  label {
+    margin-left: 5px;
+  }
+  
+  .photo {
+    display: block;
+    margin: 30px auto;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .button-delete {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .button-delete:hover {
+    border: 1px solid red;
+  }
+  
+  .bordaLista {
+    border-bottom: 2px solid #bab6b6;
+  }
+  
+  .image-upload > input {
+    display: none;
+  }
+  
+  .image-upload {
+    display: block;
+    margin: auto;
+  }

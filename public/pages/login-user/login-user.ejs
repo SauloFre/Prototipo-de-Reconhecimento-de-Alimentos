@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Login Usuario</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <link rel="stylesheet" href="../../bootstrap/style.css" />
+        <link rel="stylesheet" href="../../bootstrap/bootstrap.css" />
+        <link rel="stylesheet" href="../../bootstrap/bootstrap-grid.css" />
+        <link rel="stylesheet" href="../../bootstrap/bootstrap-reboot.css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+    </head>
+    <body>
+        <header class="cabecalho"></header>
+
+        <div class="form-group">
+        <label>Email</label>
+        <input
+            type="email"
+            required
+            name="email"
+            class="form-control"
+            placeholder="Email"
+            id="email"
+        />
+        </div>
+
+        <div class="form-group">
+        <label>Password</label>
+        <input
+            type="password"
+            required
+            name="password"
+            class="form-control"
+            placeholder="Password"
+            id="password"
+        />
+        </div>
+
+        <button type="button" class="btn btn-primary" onclick="loginUser()">Acessar</button>
+
+        <a href="/user-register">Cadastre-se</a>
+
+        <script src="/pages/common/user.js"></script>
+        <script src="/pages/request/request.js"></script>
+        <script src="/pages/login-user/js/login-user.js"></script>
+    </body>
+</html>

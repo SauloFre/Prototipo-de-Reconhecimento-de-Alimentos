@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin-top: 100px;
+}
+
+.button-delete {
+  width: 25px;
+  height: 25px;
+  margin-left: 0;
+  margin-top: 10px;
+}
+
+.button-delete:hover {
+  border: 1px solid red;
+}
+
+.div-list,
+.list-group {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.bordaLista {
+  border-bottom: 2px solid #bab6b6;
+}
